@@ -97,6 +97,7 @@ test('企业面板：试用受限 / 企业全量 / 导出两种格式', async ()
   await route.handler({ url: '/enterprise', headers: {} }, html);
   assert.equal(html.status, 200);
   assert.match(String(html.body), /深鲸企业审计套件/);
+  assert.match(String(html.body), /deepwhale-badge\.png/);
 
   const data = fakeRes();
   await route.handler({ url: '/enterprise/data?view=all', headers: {} }, data);

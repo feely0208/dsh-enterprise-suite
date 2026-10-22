@@ -1,6 +1,6 @@
 {
   "name": "@deepwhale-cn/dsh-enterprise-suite",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "深鲸企业审计套件：审批台账 + 决策复盘 + 审计报告导出 + 定时复盘任务，一个授权全部可用",
   "type": "module",
   "main": "./lib/index.js",
