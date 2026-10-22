@@ -1,0 +1,4 @@
+# @deepwhale-cn/dsh-enterprise-suite 的组合层
+- insert:
+    - id: enterprise-suite
+      name: '@deepwhale-cn/dsh-enterprise-suite'
